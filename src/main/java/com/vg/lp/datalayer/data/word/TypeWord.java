@@ -1,4 +1,4 @@
-package com.vg.lp.datalayer.data;
+package com.vg.lp.datalayer.data.word;
 
 public enum TypeWord {
     NOUN("сущ");

@@ -3,7 +3,8 @@ package com.vg.lp.datalayer;
 import java.util.List;
 
 public interface BasicsDAO {
-    List<String> getAllEndings();
+    List<String> getAllBasics();
+    int getIdByBasic(String ending);
 }
 
 

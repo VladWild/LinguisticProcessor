@@ -16,9 +16,14 @@ public class SQLiteBasicsDAO implements BasicsDAO {
     }
 
     @Override
-    public List<String> getAllEndings() {
+    public List<String> getAllBasics() {
         return jdbcTemplate.query(rm.getRequest("all_basics"),
                 (rs, i) -> rs.getString("basics"));
+    }
+
+    @Override
+    public int getIdByBasic(String ending) {
+        return jdbcTemplate.queryForObject(rm.getRequest("id_basic"), new Object[]{ending}, Integer.class);
     }
 }
 

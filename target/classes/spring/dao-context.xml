@@ -24,4 +24,21 @@
         <constructor-arg ref = "srm"/>
     </bean>
 
+    <bean id="sqliteMorphologicalDAO" class="com.vg.lp.datalayer.sqlite.SQLiteMorphologicalDAO">
+        <constructor-arg ref = "jdbcTemplate"/>
+        <constructor-arg ref = "srm"/>
+    </bean>
+
+    <bean id="sqliteInformationDAO" class="com.vg.lp.datalayer.sqlite.SQLiteInformationDAO">
+        <constructor-arg ref = "jdbcTemplate"/>
+        <constructor-arg ref = "srm"/>
+    </bean>
+
+    <bean id="serviceWord" class="com.vg.lp.services.ServiceWord">
+        <constructor-arg ref = "sqliteEndingDAO"/>
+        <constructor-arg ref = "sqliteBasicsDAO"/>
+        <constructor-arg ref = "sqliteMorphologicalDAO"/>
+        <constructor-arg ref = "sqliteInformationDAO"/>
+    </bean>
+
 </beans>

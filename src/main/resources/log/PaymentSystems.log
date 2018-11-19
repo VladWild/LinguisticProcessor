@@ -1,2 +1,2 @@
-2018-11-18 18:37:53,388 INFO  islavgusev.linguisticprocessor.LinguisticProcessor - Приложение "Linguistic Processor" стартовало
-2018-11-18 18:37:53,390 DEBUG islavgusev.linguisticprocessor.LinguisticProcessor - Приложение "Linguistic Processor" запустилось
+2018-11-19 11:58:18,252 INFO  com.vg.lp.services.ServiceWord                     - Список всех возможных окончаний для слова "Германией":  ей й 
+2018-11-19 11:58:18,262 INFO  com.vg.lp.services.ServiceWord                     - Основа слова "Германией": Германи

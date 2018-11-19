@@ -14,4 +14,7 @@
         <property name="password" value="" />
     </bean>
 
+    <bean id="simpleParser" class="com.vg.lp.persers.text.SimpleParser" />
+    <bean id="simpleParserSps" class="com.vg.lp.persers.specifications.SimpleParserSps"/>
+
 </beans>

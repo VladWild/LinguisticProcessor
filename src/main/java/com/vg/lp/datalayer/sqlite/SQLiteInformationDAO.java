@@ -27,7 +27,7 @@ public class SQLiteInformationDAO implements InformationDAO {
     public List<Specifications> getSpecifications(List<Integer> ids) {
         return jdbcTemplate.query(rm.getRequest("info"),
                 (resultSet, i) -> {
-                    if (ids.contains(i)) {
+                    if (ids.contains(i + 1)) {
                         Specifications sp = new Specifications();
                         sp.setChR(resultSet.getString("ChR"));
                         sp.setOd(resultSet.getString("Od"));

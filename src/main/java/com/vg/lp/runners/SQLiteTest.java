@@ -61,7 +61,6 @@ public class SQLiteTest {
 
         ServiceWord serviceWord = (ServiceWord) context.getBean("serviceWord");
         serviceWord.getWord("Англии");
-
     }
 
 

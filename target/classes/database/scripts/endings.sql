@@ -1,6 +1,6 @@
 ﻿DELETE FROM Endings WHERE 1=1;
 
---Сборные
+--Сборные, Существительные
 --Австралия, Англия, Бельгия, Бразилия, Германия
 --Дания, Исландия, Испания, Клумбия, Нигерия
 --Португалия, Корея, Россия, Аравия, Сербия
@@ -26,5 +26,15 @@ INSERT INTO Endings (endings) VALUES ('й');
 INSERT INTO Endings (endings) VALUES ('ем');
 
 --Коста-Рика, Мексика, Панама, Польша, Сенегал, Тунис
+
+--матч
+INSERT INTO Endings (endings) VALUES ('ами');
+INSERT INTO Endings (endings) VALUES ('ах');
+
+--место
+INSERT INTO Endings (endings) VALUES ('о');
+
+--команда
+INSERT INTO Endings (endings) VALUES ('ам');
 
 

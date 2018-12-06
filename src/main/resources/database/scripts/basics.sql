@@ -16,7 +16,7 @@ INSERT INTO Basics (basics) VALUES ('Колумби');
 INSERT INTO Basics (basics) VALUES ('Коста-Рик');
 INSERT INTO Basics (basics) VALUES ('Марокко');
 INSERT INTO Basics (basics) VALUES ('Мексик');
-INSERT INTO Basics (basics) VALUES ('Нигер');
+INSERT INTO Basics (basics) VALUES ('Нигери');
 INSERT INTO Basics (basics) VALUES ('Панам');
 INSERT INTO Basics (basics) VALUES ('Перу');
 INSERT INTO Basics (basics) VALUES ('Польш');
@@ -33,3 +33,17 @@ INSERT INTO Basics (basics) VALUES ('Хорвати');
 INSERT INTO Basics (basics) VALUES ('Швейцари');
 INSERT INTO Basics (basics) VALUES ('Швеци');
 INSERT INTO Basics (basics) VALUES ('Япони');
+
+--Cуществительные
+INSERT INTO Basics (basics) VALUES ('побед');
+INSERT INTO Basics (basics) VALUES ('чертветьфинал');
+INSERT INTO Basics (basics) VALUES ('полуфинал');
+INSERT INTO Basics (basics) VALUES ('финал');
+INSERT INTO Basics (basics) VALUES ('матч');
+INSERT INTO Basics (basics) VALUES ('мест');
+INSERT INTO Basics (basics) VALUES ('команд');
+INSERT INTO Basics (basics) VALUES ('турнир');
+INSERT INTO Basics (basics) VALUES ('соревновани');
+INSERT INTO Basics (basics) VALUES ('стади');
+INSERT INTO Basics (basics) VALUES ('плей-офф');
+

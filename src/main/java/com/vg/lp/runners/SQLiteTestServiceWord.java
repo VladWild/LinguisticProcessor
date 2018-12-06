@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SQLiteTest {
+public class SQLiteTestServiceWord {
 
     private void testEnding(){
         ApplicationContext context = new ClassPathXmlApplicationContext("spring/dao-context.xml");
@@ -52,7 +52,7 @@ public class SQLiteTest {
     public static void main(String[] args) throws IOException {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring/dao-context.xml");
 
-        SQLiteTest sqLiteTest = new SQLiteTest();
+        SQLiteTestServiceWord sqLiteTest = new SQLiteTestServiceWord();
 
         //sqLiteTest.testEnding();
         //sqLiteTest.testBasics();
@@ -60,7 +60,7 @@ public class SQLiteTest {
         //sqLiteTest.testInformation();
 
         ServiceWord serviceWord = (ServiceWord) context.getBean("serviceWord");
-        serviceWord.getWord("Англии");
+        serviceWord.getWord("стадии");
     }
 
 

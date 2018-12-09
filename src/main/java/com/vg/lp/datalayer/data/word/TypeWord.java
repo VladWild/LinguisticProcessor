@@ -1,19 +1,20 @@
 package com.vg.lp.datalayer.data.word;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 public enum TypeWord {
-    NOUN("сущ");
+    NOUN("сущ"), VEB("гл"), NUM("числ");
 
     private String type;
 
     private static final Map<String, TypeWord> map;
     static {
         map = new HashMap<String,TypeWord>();
-        for (TypeWord v : TypeWord.values()) {
-            map.put(v.type, v);
-        }
+        Arrays.stream(TypeWord.values()).forEach(typeWord ->
+                map.put(typeWord.type, typeWord));
     }
 
     public static TypeWord findByKey(String key) {

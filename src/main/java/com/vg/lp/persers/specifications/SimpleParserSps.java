@@ -3,22 +3,34 @@ package com.vg.lp.persers.specifications;
 import com.vg.lp.datalayer.data.Specifications;
 import com.vg.lp.datalayer.data.word.TypeWord;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class SimpleParserSps implements ParserSps {
+
+    private boolean isSpecNull(String spec){
+        return Objects.isNull(spec);
+    }
+
+    private void addSpec(String key, String spec, Map<String, String> sp){
+        if (!isSpecNull(spec)){
+            sp.put(key, spec);
+        }
+    }
+
     @Override
     public List<Map<String, String>> getSpes(List<Specifications> sps) {
         List<Map<String, String>> spes = new ArrayList<>();
 
-        sps.forEach(specifications -> {
+        sps.forEach(specification -> {
             Map<String, String> sp = new HashMap<>();
-            sp.put("од/неод", specifications.getOd());
-            sp.put("число", specifications.getChislo());
-            sp.put("род", specifications.getRod());
-            sp.put("падеж", specifications.getPadezh());
+
+            addSpec("од/неод", specification.getOd(), sp);
+            addSpec("число", specification.getChislo(), sp);
+            addSpec("род", specification.getRod(), sp);
+            addSpec("падеж", specification.getPadezh(), sp);
+            addSpec("форма", specification.getForma(), sp);
+            addSpec("вид", specification.getVid(), sp);
+            addSpec("время", specification.getTime(), sp);
 
             spes.add(sp);
         });

@@ -34,6 +34,9 @@ public class SQLiteInformationDAO implements InformationDAO {
                         sp.setChislo(resultSet.getString("Chislo"));
                         sp.setRod(resultSet.getString("Rod"));
                         sp.setPadezh(resultSet.getString("Padezh"));
+                        sp.setForma(resultSet.getString("Forma"));
+                        sp.setVid(resultSet.getString("Vid"));
+                        sp.setTime(resultSet.getString("Time"));
                         return sp;
                     } else {
                         return null;

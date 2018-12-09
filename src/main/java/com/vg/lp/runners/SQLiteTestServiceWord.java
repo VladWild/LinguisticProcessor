@@ -34,7 +34,7 @@ public class SQLiteTestServiceWord {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring/dao-context.xml");
         MorphologicalDAO morphologicalDAO = (MorphologicalDAO) context.getBean("sqliteMorphologicalDAO");
 
-        System.out.println(morphologicalDAO.getMorphologicalInfo(1,2));
+        System.out.println(morphologicalDAO.getMorphologicalInfo(18,52));
     }
 
     private void testInformation() {
@@ -60,9 +60,8 @@ public class SQLiteTestServiceWord {
         //sqLiteTest.testInformation();
 
         ServiceWord serviceWord = (ServiceWord) context.getBean("serviceWord");
-        serviceWord.getWord("стадии");
+        serviceWord.getWord("восьмая");
     }
-
 
 }
 

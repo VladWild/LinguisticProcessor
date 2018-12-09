@@ -46,3 +46,21 @@ INSERT INTO Basics (basics) VALUES ('турнир');
 INSERT INTO Basics (basics) VALUES ('соревновани');
 INSERT INTO Basics (basics) VALUES ('стади');
 INSERT INTO Basics (basics) VALUES ('плей-офф');
+
+--Глаголы
+INSERT INTO Basics (basics) VALUES ('сыграл');
+INSERT INTO Basics (basics) VALUES ('играл');
+INSERT INTO Basics (basics) VALUES ('выиграл');
+INSERT INTO Basics (basics) VALUES ('одержал');
+INSERT INTO Basics (basics) VALUES ('проиграл');
+INSERT INTO Basics (basics) VALUES ('победил');
+INSERT INTO Basics (basics) VALUES ('участвовал');
+INSERT INTO Basics (basics) VALUES ('дошл');
+
+--Числительные
+INSERT INTO Basics (basics) VALUES ('перв');
+INSERT INTO Basics (basics) VALUES ('втор');
+INSERT INTO Basics (basics) VALUES ('трет');
+INSERT INTO Basics (basics) VALUES ('четверт');
+INSERT INTO Basics (basics) VALUES ('восьм');
+

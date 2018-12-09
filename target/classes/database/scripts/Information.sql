@@ -36,3 +36,21 @@ INSERT INTO Information (ChR, Od, Chislo, Rod, Padezh) VALUES ('сущ', 'неод', 'м
 INSERT INTO Information (ChR, Od, Chislo, Rod, Padezh) VALUES ('сущ', 'неод', 'мн', 'жен', 'тп');
 INSERT INTO Information (ChR, Od, Chislo, Rod, Padezh) VALUES ('сущ', 'неод', 'мн', 'жен', 'пп');
 
+--Глаголы
+INSERT INTO Information (ChR, Forma, Chislo, Rod, Vid, Time) VALUES ('гл', 'неинф', 'ед', 'муж', 'сов', 'прош');
+INSERT INTO Information (ChR, Forma, Chislo, Rod, Vid, Time) VALUES ('гл', 'неинф', 'ед', 'жен', 'сов', 'прош');
+INSERT INTO Information (ChR, Forma, Chislo, Vid, Time) VALUES ('гл', 'неинф', 'мн', 'сов', 'прош');
+
+INSERT INTO Information (ChR, Forma, Chislo, Rod, Vid, Time) VALUES ('гл', 'неинф', 'ед', 'муж', 'несов', 'прош');
+INSERT INTO Information (ChR, Forma, Chislo, Rod, Vid, Time) VALUES ('гл', 'неинф', 'ед', 'жен', 'несов', 'прош');
+INSERT INTO Information (ChR, Forma, Chislo, Vid, Time) VALUES ('гл', 'неинф', 'мн', 'несов', 'прош');
+
+--Числительные
+INSERT INTO Information (ChR, Forma, Chislo, Rod) VALUES ('числ', 'порядк', 'ед', 'ср');
+INSERT INTO Information (ChR, Forma, Chislo, Rod) VALUES ('числ', 'порядк', 'ед', 'муж');
+INSERT INTO Information (ChR, Forma, Chislo, Rod) VALUES ('числ', 'порядк', 'ед', 'жен');
+INSERT INTO Information (ChR, Forma, Chislo) VALUES ('числ', 'порядк', 'мн');
+
+
+
+

@@ -37,4 +37,16 @@ INSERT INTO Endings (endings) VALUES ('о');
 --команда
 INSERT INTO Endings (endings) VALUES ('ам');
 
+--первое
+INSERT INTO Endings (endings) VALUES ('ое');
+INSERT INTO Endings (endings) VALUES ('ый');
+INSERT INTO Endings (endings) VALUES ('ая');
+INSERT INTO Endings (endings) VALUES ('ые');
+
+--третье
+INSERT INTO Endings (endings) VALUES ('ье');
+INSERT INTO Endings (endings) VALUES ('ий');
+INSERT INTO Endings (endings) VALUES ('ья');
+INSERT INTO Endings (endings) VALUES ('ьи');
+
 

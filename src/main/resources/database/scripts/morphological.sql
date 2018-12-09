@@ -75,3 +75,24 @@ INSERT INTO Morphological ('е', '€', 'ю', 'ем', 'и') VALUES ('13,16', '14', '15'
 INSERT INTO Morphological ('€', 'и', 'ю', 'ей') VALUES ('1', '2,3,6', '4', '5');
 
 INSERT INTO Morphological ('null') VALUES ('7,8,9,10,11,12');
+
+--√лагол
+INSERT INTO Morphological ('null', 'а', 'и') VALUES ('31', '32', '33');
+
+INSERT INTO Morphological ('null', 'а', 'и') VALUES ('34', '35', '36');
+
+INSERT INTO Morphological ('null', 'а', 'и') VALUES ('31', '32', '33');
+INSERT INTO Morphological ('null', 'а', 'и') VALUES ('31', '32', '33');
+INSERT INTO Morphological ('null', 'а', 'и') VALUES ('31', '32', '33');
+INSERT INTO Morphological ('null', 'а', 'и') VALUES ('31', '32', '33');
+
+INSERT INTO Morphological ('null', 'а', 'и') VALUES ('34', '35', '36');
+
+INSERT INTO Morphological ('а') VALUES ('32');
+
+--„ислительные
+INSERT INTO Morphological ('ое', 'ый', 'а€', 'ые') VALUES ('37', '38', '39', '40');
+INSERT INTO Morphological ('ое', 'ой', 'а€', 'ые') VALUES ('37', '38', '39', '40');
+INSERT INTO Morphological ('ье', 'ий', 'ь€', 'ьи') VALUES ('37', '38', '39', '40');
+INSERT INTO Morphological ('ое', 'ый', 'а€', 'ые') VALUES ('37', '38', '39', '40');
+INSERT INTO Morphological ('ое', 'ой', 'а€', 'ые') VALUES ('37', '38', '39', '40');

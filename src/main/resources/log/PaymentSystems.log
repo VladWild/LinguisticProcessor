@@ -1,8 +1,8 @@
-2018-12-09 18:11:49,851 INFO  com.vg.lp.services.ServiceWord                     - Список всех возможных окончаний для слова "восьмая":  я ая 
-2018-12-09 18:11:49,855 INFO  com.vg.lp.services.ServiceWord                     - Основа слова "восьмая": восьм
-2018-12-09 18:11:49,856 INFO  com.vg.lp.services.ServiceWord                     - Окончание слова "восьмая": ая
-2018-12-09 18:11:49,879 INFO  com.vg.lp.services.ServiceWord                     - Номер флективного класса - основы слова "восьмая": 56 - восьм
-2018-12-09 18:11:49,882 INFO  com.vg.lp.services.ServiceWord                     - Номер окончания слова "восьмая": 20 - ая
-2018-12-09 18:11:49,900 INFO  com.vg.lp.services.ServiceWord                     - Номера морфологических признаков: 39, 
-2018-12-09 18:11:49,907 INFO  com.vg.lp.services.ServiceWord                     - Часть речи слова "восьмая": числ
-2018-12-09 18:11:49,908 INFO  com.vg.lp.services.ServiceWord                     - Характеристики слова "восьмая": [{форма=порядк, число=ед, род=жен}]
+2018-12-09 18:22:42,513 INFO  com.vg.lp.services.ServiceWord                     - Список всех возможных окончаний для слова "далеко":  о 
+2018-12-09 18:22:42,517 INFO  com.vg.lp.services.ServiceWord                     - Основа слова "далеко": далеко
+2018-12-09 18:22:42,518 INFO  com.vg.lp.services.ServiceWord                     - Окончание слова "далеко": null
+2018-12-09 18:22:42,538 INFO  com.vg.lp.services.ServiceWord                     - Номер флективного класса - основы слова "далеко": 58 - далеко
+2018-12-09 18:22:42,540 INFO  com.vg.lp.services.ServiceWord                     - Номер окончания слова "далеко": 10 - null
+2018-12-09 18:22:42,550 INFO  com.vg.lp.services.ServiceWord                     - Номера морфологических признаков: 42, 
+2018-12-09 18:22:42,556 INFO  com.vg.lp.services.ServiceWord                     - Часть речи слова "далеко": нар
+2018-12-09 18:22:42,558 INFO  com.vg.lp.services.ServiceWord                     - Характеристики слова "далеко": [{вид=опр/кач}]

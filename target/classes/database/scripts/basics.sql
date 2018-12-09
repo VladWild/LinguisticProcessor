@@ -64,3 +64,9 @@ INSERT INTO Basics (basics) VALUES ('трет');
 INSERT INTO Basics (basics) VALUES ('четверт');
 INSERT INTO Basics (basics) VALUES ('восьм');
 
+--Наречия
+INSERT INTO Basics (basics) VALUES ('сколько');
+INSERT INTO Basics (basics) VALUES ('далеко');
+
+
+

@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7631cdac-d0b7-4f00-9471-46c93635b694" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/Specifications.java" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/Specifications.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/word/TypeWord.java" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/word/TypeWord.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/word/Word.java" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/word/Word.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteInformationDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteInformationDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteMorphologicalDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteMorphologicalDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vg/lp/persers/specifications/SimpleParserSps.java" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/persers/specifications/SimpleParserSps.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vg/lp/runners/SQLiteTestServiceWord.java" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/runners/SQLiteTestServiceWord.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vg/lp/services/ServiceWord.java" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/services/ServiceWord.java" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/database/Processor.db" afterPath="$PROJECT_DIR$/src/main/resources/database/Processor.db" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/database/requests.properties" afterPath="$PROJECT_DIR$/src/main/resources/database/requests.properties" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/database/scripts/Information.sql" afterPath="$PROJECT_DIR$/src/main/resources/database/scripts/Information.sql" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/database/scripts/basics.sql" afterPath="$PROJECT_DIR$/src/main/resources/database/scripts/basics.sql" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/database/scripts/endings.sql" afterPath="$PROJECT_DIR$/src/main/resources/database/scripts/endings.sql" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/database/scripts/morphological.sql" afterPath="$PROJECT_DIR$/src/main/resources/database/scripts/morphological.sql" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/log/PaymentSystems.log" afterPath="$PROJECT_DIR$/src/main/resources/log/PaymentSystems.log" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/context.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/context.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vg/lp/services/ServiceWord.class" afterPath="$PROJECT_DIR$/target/classes/com/vg/lp/services/ServiceWord.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/scripts/basics.sql" afterPath="$PROJECT_DIR$/target/classes/database/scripts/basics.sql" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log/PaymentSystems.log" afterPath="$PROJECT_DIR$/target/classes/log/PaymentSystems.log" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/context.xml" afterPath="$PROJECT_DIR$/target/classes/spring/context.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/runners/SQLiteTestServiceWord.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
-              <caret line="62" column="36" lean-forward="false" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+              <caret line="62" column="38" lean-forward="true" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,14 +122,14 @@
       <file leaf-file-name="TypeWord.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/word/TypeWord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="170">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -234,10 +220,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/Specifications.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteInformationDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/persers/specifications/SimpleParserSps.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/word/TypeWord.java" />
         <option value="$PROJECT_DIR$/src/main/resources/database/requests.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteMorphologicalDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/services/ServiceWord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/word/TypeWord.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/runners/SQLiteTestServiceWord.java" />
       </list>
     </option>
@@ -674,12 +660,12 @@
       <workItem from="1542640128342" duration="964000" />
       <workItem from="1544089110638" duration="8509000" />
       <workItem from="1544343976844" duration="973000" />
-      <workItem from="1544344985626" duration="11456000" />
+      <workItem from="1544344985626" duration="12219000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76848000" />
+    <option name="totallyTimeSpent" value="77611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1006,20 +992,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/word/TypeWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/MorphologicalDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1111,10 +1083,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/word/TypeWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/runners/SQLiteTestServiceWord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="62" column="36" lean-forward="false" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+          <caret line="62" column="38" lean-forward="true" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

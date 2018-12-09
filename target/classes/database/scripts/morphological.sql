@@ -96,3 +96,7 @@ INSERT INTO Morphological ('ое', 'ой', 'ая', 'ые') VALUES ('37', '38', '39', '40
 INSERT INTO Morphological ('ье', 'ий', 'ья', 'ьи') VALUES ('37', '38', '39', '40');
 INSERT INTO Morphological ('ое', 'ый', 'ая', 'ые') VALUES ('37', '38', '39', '40');
 INSERT INTO Morphological ('ое', 'ой', 'ая', 'ые') VALUES ('37', '38', '39', '40');
+
+--Наречия
+INSERT INTO Morphological ('null') VALUES ('41');
+INSERT INTO Morphological ('null') VALUES ('42');

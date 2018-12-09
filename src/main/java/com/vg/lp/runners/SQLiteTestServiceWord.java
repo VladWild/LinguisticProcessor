@@ -60,7 +60,7 @@ public class SQLiteTestServiceWord {
         //sqLiteTest.testInformation();
 
         ServiceWord serviceWord = (ServiceWord) context.getBean("serviceWord");
-        serviceWord.getWord("восьмая");
+        serviceWord.getWord("далеко");
     }
 
 }

@@ -51,6 +51,12 @@ INSERT INTO Information (ChR, Forma, Chislo, Rod) VALUES ('числ', 'порядк', 'ед'
 INSERT INTO Information (ChR, Forma, Chislo, Rod) VALUES ('числ', 'порядк', 'ед', 'жен');
 INSERT INTO Information (ChR, Forma, Chislo) VALUES ('числ', 'порядк', 'мн');
 
+--Наречия
+INSERT INTO Information (ChR, Vid) VALUES ('нар', 'вопр');
+INSERT INTO Information (ChR, Vid) VALUES ('нар', 'опр/кач');
+
+
+
 
 
 

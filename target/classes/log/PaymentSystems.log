@@ -1,8 +1,8 @@
-2018-12-09 18:07:54,127 INFO  com.vg.lp.services.ServiceWord                     - Список всех возможных окончаний для слова "третье":  е ье 
-2018-12-09 18:07:54,131 INFO  com.vg.lp.services.ServiceWord                     - Основа слова "третье": трет
-2018-12-09 18:07:54,131 INFO  com.vg.lp.services.ServiceWord                     - Окончание слова "третье": ье
-2018-12-09 18:07:54,152 INFO  com.vg.lp.services.ServiceWord                     - Номер флективного класса - основы слова "третье": 54 - трет
-2018-12-09 18:07:54,155 INFO  com.vg.lp.services.ServiceWord                     - Номер окончания слова "третье": 22 - ье
-2018-12-09 18:07:54,167 INFO  com.vg.lp.services.ServiceWord                     - Номера морфологических признаков: 37, 
-2018-12-09 18:07:54,173 INFO  com.vg.lp.services.ServiceWord                     - Часть речи слова "третье": числ
-2018-12-09 18:07:54,174 INFO  com.vg.lp.services.ServiceWord                     - Характеристики слова "третье": [{форма=порядк, число=ед, род=ср}]
+2018-12-09 18:22:21,213 INFO  com.vg.lp.services.ServiceWord                     - Список всех возможных окончаний для слова "сколько":  о 
+2018-12-09 18:22:21,217 INFO  com.vg.lp.services.ServiceWord                     - Основа слова "сколько": сколько
+2018-12-09 18:22:21,218 INFO  com.vg.lp.services.ServiceWord                     - Окончание слова "сколько": null
+2018-12-09 18:22:21,236 INFO  com.vg.lp.services.ServiceWord                     - Номер флективного класса - основы слова "сколько": 57 - сколько
+2018-12-09 18:22:21,238 INFO  com.vg.lp.services.ServiceWord                     - Номер окончания слова "сколько": 10 - null
+2018-12-09 18:22:21,249 INFO  com.vg.lp.services.ServiceWord                     - Номера морфологических признаков: 41, 
+2018-12-09 18:22:21,258 INFO  com.vg.lp.services.ServiceWord                     - Часть речи слова "сколько": нар
+2018-12-09 18:22:21,259 INFO  com.vg.lp.services.ServiceWord                     - Характеристики слова "сколько": [{вид=вопр}]

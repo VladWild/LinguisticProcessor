@@ -7,6 +7,7 @@ import java.util.Map;
 
 @Data
 public class Word {
+    private String metka;
     private TypeWord typeWord;
     private String word;
     private String basic;

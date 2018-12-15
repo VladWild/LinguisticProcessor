@@ -13,7 +13,7 @@
 
     <appender name="RollingFileAppender" class="org.apache.log4j.RollingFileAppender">
         <param name="Threshold" value="DEBUG"/>
-        <param name="File" value="src/main/resources/log/PaymentSystems.log"/>
+        <param name="File" value="src/main/resources/log/LinguisticProcessor.log"/>
         <param name="append" value="false"/>
         <param name="MaxFileSize" value="5KB"/>
         <param name="maxBackupIndex" value="3"/>

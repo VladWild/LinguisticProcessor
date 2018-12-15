@@ -1,16 +1,16 @@
 package com.vg.lp.datalayer.sqlite;
 
 import com.vg.lp.datalayer.EndingsDAO;
-import com.vg.lp.utilities.requestmanagers.RequestManager;
+import com.vg.lp.utilities.requestmanagers.Manager;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import java.util.List;
 
 public class SQLiteEndingDAO implements EndingsDAO {
     private JdbcTemplate jdbcTemplate;
-    private RequestManager rm;
+    private Manager rm;
 
-    public SQLiteEndingDAO(JdbcTemplate jdbcTemplate, RequestManager rm) {
+    public SQLiteEndingDAO(JdbcTemplate jdbcTemplate, Manager rm) {
         this.jdbcTemplate = jdbcTemplate;
         this.rm = rm;
     }

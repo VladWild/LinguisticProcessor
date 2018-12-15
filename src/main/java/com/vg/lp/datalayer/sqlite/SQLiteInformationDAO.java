@@ -2,23 +2,18 @@ package com.vg.lp.datalayer.sqlite;
 
 import com.vg.lp.datalayer.InformationDAO;
 import com.vg.lp.datalayer.data.Specifications;
-import com.vg.lp.utilities.requestmanagers.RequestManager;
+import com.vg.lp.utilities.requestmanagers.Manager;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.RowMapper;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class SQLiteInformationDAO implements InformationDAO {
     private JdbcTemplate jdbcTemplate;
-    private RequestManager rm;
+    private Manager rm;
 
-    public SQLiteInformationDAO(JdbcTemplate jdbcTemplate, RequestManager rm) {
+    public SQLiteInformationDAO(JdbcTemplate jdbcTemplate, Manager rm) {
         this.jdbcTemplate = jdbcTemplate;
         this.rm = rm;
     }

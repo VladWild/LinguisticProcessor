@@ -1,14 +1,14 @@
 package com.vg.lp.datalayer.sqlite;
 
 import com.vg.lp.datalayer.MorphologicalDAO;
-import com.vg.lp.utilities.requestmanagers.RequestManager;
+import com.vg.lp.utilities.requestmanagers.Manager;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 public class SQLiteMorphologicalDAO implements MorphologicalDAO {
     private JdbcTemplate jdbcTemplate;
-    private RequestManager rm;
+    private Manager rm;
 
-    public SQLiteMorphologicalDAO(JdbcTemplate jdbcTemplate, RequestManager rm) {
+    public SQLiteMorphologicalDAO(JdbcTemplate jdbcTemplate, Manager rm) {
         this.jdbcTemplate = jdbcTemplate;
         this.rm = rm;
     }

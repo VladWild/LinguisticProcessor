@@ -57,7 +57,7 @@
     </bean>
 
     <!--инициализация сервисов: serviceWord-->
-    <bean id="serviceWord" class="com.vg.lp.services.ServiceWord" autowire="byName">
+    <bean id="serviceWord" class="com.vg.lp.services.ServiceWord">
         <constructor-arg ref = "sqliteEndingDAO"/>
         <constructor-arg ref = "sqliteBasicsDAO"/>
         <constructor-arg ref = "sqliteMorphologicalDAO"/>
@@ -66,5 +66,12 @@
         <constructor-arg ref = "sellParser"/>
         <constructor-arg ref = "simpleParserSps"/>
     </bean>
+
+    <bean id="serviceSentence" class="com.vg.lp.services.ServiceSentence">
+        <constructor-arg ref = "groups"/>
+    </bean>
+
+    <!--инициализация утилит: groups-->
+    <bean id="groups" class="com.vg.lp.utilities.groups.GroupsWords"/>
 
 </beans>

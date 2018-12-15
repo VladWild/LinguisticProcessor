@@ -9,7 +9,6 @@ import com.vg.lp.datalayer.data.word.Word;
 import com.vg.lp.persers.specifications.ParserSps;
 import com.vg.lp.persers.text.Parser;
 import lombok.extern.log4j.Log4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -26,20 +25,19 @@ public class ServiceWord {
     private Parser parser;
     private ParserSps parserSps;
 
-    public ServiceWord(BasicsDAO basicsDAO, EndingsDAO endingsDAO, MorphologicalDAO morphDAO, InformationDAO infoDAO) {
+    public ServiceWord(BasicsDAO basicsDAO,
+                       EndingsDAO endingsDAO,
+                       MorphologicalDAO morphDAO,
+                       InformationDAO infoDAO,
+
+                       Parser parser,
+                       ParserSps parserSps) {
         this.basicsDAO = basicsDAO;
         this.endingsDAO = endingsDAO;
         this.morphDAO = morphDAO;
         this.infoDAO = infoDAO;
-    }
 
-    @Autowired
-    public void setParser(Parser parser) {
         this.parser = parser;
-    }
-
-    @Autowired
-    public void setParserSps(ParserSps parserSps) {
         this.parserSps = parserSps;
     }
 
@@ -94,6 +92,10 @@ public class ServiceWord {
 
         int numberBasics = basicsDAO.getIdByBasic(basic);
         log.info("Номер флективного класса - основы слова \"" + simpleWord + "\": " + numberBasics + " - " + basic);
+        String metka = basicsDAO.getMetkaById(numberBasics);
+        word.setMetka(metka);
+        log.info("Семантическая метка слова \"" + simpleWord + "\": " + metka);
+
         int numberEnding = endingsDAO.getIdByEndings(ending);
         log.info("Номер окончания слова \"" + simpleWord + "\": " + numberEnding + " - " + ending);
 
@@ -107,6 +109,7 @@ public class ServiceWord {
 
         word.setSigns(parserSps.getSpes(sps));
         log.info("Характеристики слова \"" + simpleWord + "\": " + word.getSigns());
+        System.out.println();
 
         return word;
     }

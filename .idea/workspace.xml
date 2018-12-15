@@ -1,28 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7631cdac-d0b7-4f00-9471-46c93635b694" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/persers/text/SentencesParser.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/persers/world/ParserWord.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/persers/world/SimpleParserWord.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/runners/TestServiceSentence.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/database/questions.properties" />
+    <list default="true" id="7631cdac-d0b7-4f00-9471-46c93635b694" name="Default" comment="сделан один контекст">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/services/ServiceSentence.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/utilities/groups/GroupsWords.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/utilities/requestmanagers/Manager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/utilities/requestmanagers/QuestionManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log/LinguisticProcessor.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log/LinguisticProcessor.log.1" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log/LinguisticProcessor.log.2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log/LinguisticProcessor.log.3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/vg/lp/datalayer/sqlite/SQLiteEndingDAO.class" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vg/lp/persers/text/SimpleParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/persers/text/SellParser.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vg/lp/runners/SQLiteTestServiceWord.java" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/runners/SQLiteTestServiceWord.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/BasicsDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/BasicsDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/word/Word.java" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/word/Word.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteBasicsDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteBasicsDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteEndingDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteEndingDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteInformationDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteInformationDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteMorphologicalDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteMorphologicalDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vg/lp/runners/TestServiceSentence.java" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/runners/TestServiceSentence.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vg/lp/services/ServiceWord.java" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/services/ServiceWord.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vg/lp/utilities/requestmanagers/SimpleRequestManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/vg/lp/utilities/requestmanagers/RequestManager.java" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/database/Processor.db" afterPath="$PROJECT_DIR$/src/main/resources/database/Processor.db" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/questions.properties" afterPath="$PROJECT_DIR$/src/main/resources/database/questions.properties" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/requests.properties" afterPath="$PROJECT_DIR$/src/main/resources/database/requests.properties" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/database/scripts/basics.sql" afterPath="$PROJECT_DIR$/src/main/resources/database/scripts/basics.sql" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/database/scripts/morphological.sql" afterPath="$PROJECT_DIR$/src/main/resources/database/scripts/morphological.sql" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log/PaymentSystems.log" afterPath="$PROJECT_DIR$/src/main/resources/log/PaymentSystems.log" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring/context.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/context.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vg/lp/datalayer/data/word/TypeWord.class" afterPath="$PROJECT_DIR$/target/classes/com/vg/lp/datalayer/data/word/TypeWord.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vg/lp/runners/SQLiteTestServiceWord.class" afterPath="$PROJECT_DIR$/target/classes/com/vg/lp/runners/SQLiteTestServiceWord.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/dao-context.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vg/lp/datalayer/BasicsDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/vg/lp/datalayer/BasicsDAO.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vg/lp/datalayer/data/word/Word.class" afterPath="$PROJECT_DIR$/target/classes/com/vg/lp/datalayer/data/word/Word.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vg/lp/datalayer/sqlite/SQLiteBasicsDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/vg/lp/datalayer/sqlite/SQLiteBasicsDAO.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vg/lp/datalayer/sqlite/SQLiteInformationDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/vg/lp/datalayer/sqlite/SQLiteInformationDAO.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vg/lp/datalayer/sqlite/SQLiteMorphologicalDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/vg/lp/datalayer/sqlite/SQLiteMorphologicalDAO.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vg/lp/persers/text/SimpleParser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vg/lp/services/ServiceWord.class" afterPath="$PROJECT_DIR$/target/classes/com/vg/lp/services/ServiceWord.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vg/lp/utilities/requestmanagers/RequestManager.class" afterPath="$PROJECT_DIR$/target/classes/com/vg/lp/utilities/requestmanagers/RequestManager.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vg/lp/utilities/requestmanagers/SimpleRequestManager.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/database/Processor.db" afterPath="$PROJECT_DIR$/target/classes/database/Processor.db" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/scripts/Information.sql" afterPath="$PROJECT_DIR$/target/classes/database/scripts/Information.sql" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database/requests.properties" afterPath="$PROJECT_DIR$/target/classes/database/requests.properties" />
       <change beforePath="$PROJECT_DIR$/target/classes/database/scripts/basics.sql" afterPath="$PROJECT_DIR$/target/classes/database/scripts/basics.sql" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/scripts/endings.sql" afterPath="$PROJECT_DIR$/target/classes/database/scripts/endings.sql" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/scripts/morphological.sql" afterPath="$PROJECT_DIR$/target/classes/database/scripts/morphological.sql" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log/PaymentSystems.log" afterPath="$PROJECT_DIR$/target/classes/log/PaymentSystems.log" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.xml" afterPath="$PROJECT_DIR$/target/classes/log4j.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/context.xml" afterPath="$PROJECT_DIR$/target/classes/spring/context.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/dao-context.xml" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,57 +90,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="context.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/context.xml">
+      <file leaf-file-name="ServiceSentence.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/services/ServiceSentence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="30" />
-              <folding>
-                <marker date="1544884678340" expanded="true" signature="557:569" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceWord.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/services/ServiceWord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="112" column="5" lean-forward="true" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
+            <state relative-caret-position="188">
+              <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestServiceSentence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/runners/TestServiceSentence.java">
+      <file leaf-file-name="GroupsWords.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/utilities/groups/GroupsWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="16" column="76" lean-forward="true" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requests.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/database/requests.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+            <state relative-caret-position="204">
+              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="questions.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/database/questions.properties">
+      <file leaf-file-name="Word.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/word/Word.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+              <folding>
+                <marker date="1544890791724" expanded="true" signature="557:569" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceWord.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/services/ServiceWord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="95" column="29" lean-forward="true" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EndingsDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/EndingsDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -129,9 +161,21 @@
       <file leaf-file-name="SQLiteBasicsDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteBasicsDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="414">
+              <caret line="30" column="65" lean-forward="false" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestServiceSentence.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/runners/TestServiceSentence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,6 +196,11 @@
     <findStrings>
       <find>reduce</find>
       <find>isEndingNull</find>
+      <find>equals</find>
+      <find>containsA</find>
+      <find>containsAll</find>
+      <find>contain</find>
+      <find>contains</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -165,9 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/vladislavgusev/linguisticprocessor/runners/CSVTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vladislavgusev/linguisticprocessor/datalayer/data/Ending.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vladislavgusev/linguisticprocessor/LinguisticProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vladislavgusev/linguisticprocessor/datalayer/EndingsDAO.java" />
         <option value="$PROJECT_DIR$/src/main/resources/database/requests/endings.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/vladislavgusev/linguisticprocessor/utilities/ResourceMenu.java" />
@@ -184,19 +230,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/MorphologicalDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/InformationDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/EndingsDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteBasicsDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteEndingDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/BasicsDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/persers/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/persers/SimpleParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/persers/specifications/ParserSps.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/runners/SQLiteTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/word/Word.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/Specifications.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteInformationDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/persers/specifications/SimpleParserSps.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/database/requests.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteMorphologicalDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/word/TypeWord.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/persers/text/SimpleParser.java" />
@@ -212,10 +254,17 @@
         <option value="$PROJECT_DIR$/src/main/resources/log4j.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/dao-context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/runners/SQLiteTestServiceWord.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/context.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/runners/TestServiceSentence.java" />
         <option value="$PROJECT_DIR$/src/main/resources/database/questions.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/BasicsDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/database/requests.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteBasicsDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/utilities/groups/GropsWords.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/word/Word.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/services/ServiceWord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/runners/TestServiceSentence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/utilities/groups/GroupsWords.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vg/lp/services/ServiceSentence.java" />
       </list>
     </option>
   </component>
@@ -258,10 +307,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -399,6 +445,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lp" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LinguisticProcessor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LinguisticProcessor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lp" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="groups" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LinguisticProcessor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LinguisticProcessor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lp" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
               <item name="requestmanagers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -449,6 +515,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -458,7 +527,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/database/Processor.db" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/vg/lp/utilities/groups" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
     <property name="settings.editor.splitter.proportion" value="0.31034482" />
@@ -683,7 +752,8 @@
       <workItem from="1542640128342" duration="964000" />
       <workItem from="1544089110638" duration="8509000" />
       <workItem from="1544343976844" duration="973000" />
-      <workItem from="1544344985626" duration="24336000" />
+      <workItem from="1544344985626" duration="29171000" />
+      <workItem from="1544895830538" duration="4593000" />
     </task>
     <task id="LOCAL-00001" summary="сделан полностью морфологический разбор">
       <created>1544863817471</created>
@@ -692,11 +762,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544863817471</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="сделан один контекст">
+      <created>1544885974133</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544885974133</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89728000" />
+    <option name="totallyTimeSpent" value="99156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -715,10 +792,9 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20644216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22986823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09297218" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -729,6 +805,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -739,71 +816,28 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="сделан полностью морфологический разбор" />
-    <option name="LAST_COMMIT_MESSAGE" value="сделан полностью морфологический разбор" />
+    <MESSAGE value="сделан один контекст" />
+    <option name="LAST_COMMIT_MESSAGE" value="сделан один контекст" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vg/lp/services/ServiceSentence.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/BasicsDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/aaca4076/5582a1af-192f-4240-afad-b87c0f3f963d/main.sqlite_master">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/aaca4076/5582a1af-192f-4240-afad-b87c0f3f963d/main.Endings">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/aaca4076/5582a1af-192f-4240-afad-b87c0f3f963d/main.Data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/aaca4076/5582a1af-192f-4240-afad-b87c0f3f963d/main.Basics">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/database/scripts/basics.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-277">
-          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/database/scripts/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="107" lean-forward="false" selection-start-line="15" selection-start-column="101" selection-end-line="15" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/database/scripts/endings.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -811,7 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,7 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
           <caret line="76" column="61" lean-forward="true" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -852,22 +884,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="1447" column="19" lean-forward="false" selection-start-line="1447" selection-start-column="19" selection-end-line="1447" selection-end-column="19" />
-          <folding>
-            <element signature="e#56437#56438#0" expanded="false" />
-            <element signature="e#56514#56515#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/InformationDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -875,7 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-462">
           <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -883,7 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="542" column="65" lean-forward="false" selection-start-line="542" selection-start-column="56" selection-end-line="542" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,7 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="38" column="64" lean-forward="true" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -915,7 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -923,9 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -933,7 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -945,24 +957,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log/PaymentSystems.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log/PaymentSystems.log" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/utilities/requestmanagers/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,9 +970,9 @@
         <state relative-caret-position="264">
           <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#303#304#0" expanded="false" />
+            <element signature="e#331#332#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -982,10 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,54 +996,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/dao-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/dao-context.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/word/TypeWord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/word/Word.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/persers/text/SentencesParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#587#588#0" expanded="false" />
+            <element signature="e#622#623#0" expanded="false" />
+            <element signature="e#651#652#0" expanded="false" />
+            <element signature="e#683#684#0" expanded="false" />
+            <element signature="e#714#715#0" expanded="false" />
+            <element signature="e#741#742#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1064,7 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,7 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1088,12 +1049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#1251#1252#0" expanded="true" />
-            <element signature="e#1313#1314#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1101,7 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1109,7 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1117,17 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/runners/SQLiteTestServiceWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1135,48 +1077,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteBasicsDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/persers/text/SentencesParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/database/requests.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-          <folding />
+        <state relative-caret-position="249">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/database/questions.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/BasicsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/context.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/database/requests.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="30" />
-          <folding>
-            <marker date="1544884678340" expanded="true" signature="557:569" ph="..." />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/runners/TestServiceSentence.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/runners/SQLiteTestServiceWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="16" column="76" lean-forward="true" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
+        <state relative-caret-position="363">
+          <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1185,10 +1122,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/services/ServiceWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="112" column="5" lean-forward="true" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
+        <state relative-caret-position="567">
+          <caret line="95" column="29" lean-forward="true" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/EndingsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/sqlite/SQLiteBasicsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="30" column="65" lean-forward="false" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="973" column="20" lean-forward="false" selection-start-line="973" selection-start-column="14" selection-end-line="973" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="296" column="49" lean-forward="false" selection-start-line="296" selection-start-column="42" selection-end-line="296" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="285" column="7" lean-forward="true" selection-start-line="285" selection-start-column="7" selection-end-line="285" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/runners/TestServiceSentence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+          <folding>
+            <marker date="1544890791724" expanded="true" signature="557:569" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/datalayer/data/word/Word.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/utilities/groups/GroupsWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="159" column="66" lean-forward="false" selection-start-line="159" selection-start-column="65" selection-end-line="159" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vg/lp/services/ServiceSentence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
           </folding>
         </state>
       </provider>

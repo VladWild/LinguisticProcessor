@@ -87,6 +87,3 @@ INSERT INTO Basics (basics, metka) VALUES ('до', 'П');
 --Союзы
 INSERT INTO Basics (basics, metka) VALUES ('и', 'КСЗ');
 INSERT INTO Basics (basics, metka) VALUES ('Как', 'РМ');
-
-
-

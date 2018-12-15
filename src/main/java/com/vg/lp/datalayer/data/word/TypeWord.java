@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public enum TypeWord {
-    NOUN("сущ"), VEB("гл"), NUM("числ"), ADVERB("нар");
+    NOUN("сущ"), VEB("гл"), NUM("числ"), ADVERB("нар"), PRIL("прил"), MEST("мест"), PRED("пред"), SOUZ("союз");
 
     private String type;
 

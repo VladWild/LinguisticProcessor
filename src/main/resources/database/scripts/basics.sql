@@ -68,5 +68,22 @@ INSERT INTO Basics (basics) VALUES ('восьм');
 INSERT INTO Basics (basics) VALUES ('сколько');
 INSERT INTO Basics (basics) VALUES ('далеко');
 
+--Прилагательные
+INSERT INTO Basics (basics) VALUES ('как');
 
+--Местоимения
+INSERT INTO Basics (basics) VALUES ('одна');
+INSERT INTO Basics (basics) VALUES ('собой');
+INSERT INTO Basics (basics) VALUES ('кто');
+
+--Предлоги
+INSERT INTO Basics (basics) VALUES ('между');
+INSERT INTO Basics (basics) VALUES ('в');
+INSERT INTO Basics (basics) VALUES ('за');
+INSERT INTO Basics (basics) VALUES ('на');
+INSERT INTO Basics (basics) VALUES ('до');
+
+--Союзы
+INSERT INTO Basics (basics) VALUES ('и');
+INSERT INTO Basics (basics) VALUES ('Как');
 

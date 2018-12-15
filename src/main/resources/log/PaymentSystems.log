@@ -1,8 +1,8 @@
-2018-12-09 18:22:42,513 INFO  com.vg.lp.services.ServiceWord                     - Список всех возможных окончаний для слова "далеко":  о 
-2018-12-09 18:22:42,517 INFO  com.vg.lp.services.ServiceWord                     - Основа слова "далеко": далеко
-2018-12-09 18:22:42,518 INFO  com.vg.lp.services.ServiceWord                     - Окончание слова "далеко": null
-2018-12-09 18:22:42,538 INFO  com.vg.lp.services.ServiceWord                     - Номер флективного класса - основы слова "далеко": 58 - далеко
-2018-12-09 18:22:42,540 INFO  com.vg.lp.services.ServiceWord                     - Номер окончания слова "далеко": 10 - null
-2018-12-09 18:22:42,550 INFO  com.vg.lp.services.ServiceWord                     - Номера морфологических признаков: 42, 
-2018-12-09 18:22:42,556 INFO  com.vg.lp.services.ServiceWord                     - Часть речи слова "далеко": нар
-2018-12-09 18:22:42,558 INFO  com.vg.lp.services.ServiceWord                     - Характеристики слова "далеко": [{вид=опр/кач}]
+2018-12-15 11:27:09,984 INFO  com.vg.lp.services.ServiceWord                     - Список всех возможных окончаний для слова "за":  а 
+2018-12-15 11:27:09,988 INFO  com.vg.lp.services.ServiceWord                     - Основа слова "за": за
+2018-12-15 11:27:09,988 INFO  com.vg.lp.services.ServiceWord                     - Окончание слова "за": null
+2018-12-15 11:27:10,017 INFO  com.vg.lp.services.ServiceWord                     - Номер флективного класса - основы слова "за": 65 - за
+2018-12-15 11:27:10,019 INFO  com.vg.lp.services.ServiceWord                     - Номер окончания слова "за": 10 - null
+2018-12-15 11:27:10,029 INFO  com.vg.lp.services.ServiceWord                     - Номера морфологических признаков: 47, 
+2018-12-15 11:27:10,035 INFO  com.vg.lp.services.ServiceWord                     - Часть речи слова "за": пред
+2018-12-15 11:27:10,036 INFO  com.vg.lp.services.ServiceWord                     - Характеристики слова "за": [{}]

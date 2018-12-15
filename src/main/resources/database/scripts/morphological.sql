@@ -100,3 +100,24 @@ INSERT INTO Morphological ('ое', 'ой', 'ая', 'ые') VALUES ('37', '38', '39', '40
 --Наречия
 INSERT INTO Morphological ('null') VALUES ('41');
 INSERT INTO Morphological ('null') VALUES ('42');
+
+--Прилагательные
+INSERT INTO Morphological ('ой', 'ая', 'ие') VALUES ('43', '44', '45');
+
+--Местоимения
+INSERT INTO Morphological ('null') VALUES ('46');
+INSERT INTO Morphological ('null') VALUES ('46');
+INSERT INTO Morphological ('null') VALUES ('46');
+
+--Предлоги
+INSERT INTO Morphological ('null') VALUES ('47');
+INSERT INTO Morphological ('null') VALUES ('47');
+INSERT INTO Morphological ('null') VALUES ('47');
+INSERT INTO Morphological ('null') VALUES ('47');
+INSERT INTO Morphological ('null') VALUES ('47');
+
+--Союзы
+INSERT INTO Morphological ('null') VALUES ('48');
+INSERT INTO Morphological ('null') VALUES ('48');
+
+

@@ -1,8 +1,0 @@
-2018-12-15 11:27:09,984 INFO  com.vg.lp.services.ServiceWord                     - Список всех возможных окончаний для слова "за":  а 
-2018-12-15 11:27:09,988 INFO  com.vg.lp.services.ServiceWord                     - Основа слова "за": за
-2018-12-15 11:27:09,988 INFO  com.vg.lp.services.ServiceWord                     - Окончание слова "за": null
-2018-12-15 11:27:10,017 INFO  com.vg.lp.services.ServiceWord                     - Номер флективного класса - основы слова "за": 65 - за
-2018-12-15 11:27:10,019 INFO  com.vg.lp.services.ServiceWord                     - Номер окончания слова "за": 10 - null
-2018-12-15 11:27:10,029 INFO  com.vg.lp.services.ServiceWord                     - Номера морфологических признаков: 47, 
-2018-12-15 11:27:10,035 INFO  com.vg.lp.services.ServiceWord                     - Часть речи слова "за": пред
-2018-12-15 11:27:10,036 INFO  com.vg.lp.services.ServiceWord                     - Характеристики слова "за": [{}]

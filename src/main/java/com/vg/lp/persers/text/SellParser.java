@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class SimpleParser implements Parser {
+public class SellParser implements Parser {
     private static final String SEPARATOR = ",";
 
     @Override

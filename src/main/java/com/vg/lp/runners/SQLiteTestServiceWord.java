@@ -13,9 +13,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SQLiteTestServiceWord {
+    private final static ApplicationContext context
+            = new ClassPathXmlApplicationContext("spring/context.xml");
 
     private void testEnding(){
-        ApplicationContext context = new ClassPathXmlApplicationContext("spring/dao-context.xml");
         EndingsDAO endingsDAO = (EndingsDAO) context.getBean("sqliteEndingDAO");
 
         endingsDAO.getAllEndings().forEach(System.out::println);
@@ -23,7 +24,6 @@ public class SQLiteTestServiceWord {
     }
 
     private void testBasics(){
-        ApplicationContext context = new ClassPathXmlApplicationContext("spring/dao-context.xml");
         BasicsDAO basicsDAO = (BasicsDAO) context.getBean("sqliteBasicsDAO");
 
         basicsDAO.getAllBasics().forEach(System.out::println);
@@ -31,14 +31,12 @@ public class SQLiteTestServiceWord {
     }
 
     private void testMorphological() {
-        ApplicationContext context = new ClassPathXmlApplicationContext("spring/dao-context.xml");
         MorphologicalDAO morphologicalDAO = (MorphologicalDAO) context.getBean("sqliteMorphologicalDAO");
 
-        System.out.println(morphologicalDAO.getMorphologicalInfo(18,52));
+        System.out.println(morphologicalDAO.getMorphologicalInfo(18,25));
     }
 
     private void testInformation() {
-        ApplicationContext context = new ClassPathXmlApplicationContext("spring/dao-context.xml");
         InformationDAO informationDAO = (InformationDAO) context.getBean("sqliteInformationDAO");
 
         List<Integer> list = new ArrayList<>();
@@ -50,8 +48,6 @@ public class SQLiteTestServiceWord {
     }
 
     public static void main(String[] args) throws IOException {
-        ApplicationContext context = new ClassPathXmlApplicationContext("spring/dao-context.xml");
-
         SQLiteTestServiceWord sqLiteTest = new SQLiteTestServiceWord();
 
         //sqLiteTest.testEnding();
@@ -60,7 +56,7 @@ public class SQLiteTestServiceWord {
         //sqLiteTest.testInformation();
 
         ServiceWord serviceWord = (ServiceWord) context.getBean("serviceWord");
-        serviceWord.getWord("за");
+        serviceWord.getWord("заняла");
     }
 
 }

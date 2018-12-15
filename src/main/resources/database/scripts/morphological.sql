@@ -89,6 +89,7 @@ INSERT INTO Morphological ('null', 'а', 'и') VALUES ('31', '32', '33');
 INSERT INTO Morphological ('null', 'а', 'и') VALUES ('34', '35', '36');
 
 INSERT INTO Morphological ('а') VALUES ('32');
+INSERT INTO Morphological ('а') VALUES ('32');
 
 --„ислительные
 INSERT INTO Morphological ('ое', 'ый', 'а€', 'ые') VALUES ('37', '38', '39', '40');

@@ -55,6 +55,20 @@ INSERT INTO Information (ChR, Forma, Chislo) VALUES ('числ', 'порядк', 'мн');
 INSERT INTO Information (ChR, Vid) VALUES ('нар', 'вопр');
 INSERT INTO Information (ChR, Vid) VALUES ('нар', 'опр/кач');
 
+--Прилагательные
+INSERT INTO Information (ChR, Chislo, Rod, Vid) VALUES ('прил', 'ед', 'муж',  'вопр');
+INSERT INTO Information (ChR, Chislo, Rod, Vid) VALUES ('прил', 'ед', 'жен',  'вопр');
+INSERT INTO Information (ChR, Chislo, Vid) VALUES ('прил', 'мн', 'вопр');
+
+--Местоимения
+INSERT INTO Information (ChR) VALUES ('мест');
+
+--Предлоги
+INSERT INTO Information (ChR) VALUES ('пред');
+
+--Союзы
+INSERT INTO Information (ChR) VALUES ('союз');
+
 
 
 

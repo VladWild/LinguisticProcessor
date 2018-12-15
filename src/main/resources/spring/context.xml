@@ -9,6 +9,7 @@
 
     <context:component-scan base-package="com.vg.lp.*" />
 
+    <!--бины базы данных: datasource, jdbcTemplate-->
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="org.sqlite.JDBC" />
         <property name="url" value="jdbc:sqlite:src/main/resources/database/Processor.db" />
@@ -16,7 +17,54 @@
         <property name="password" value="" />
     </bean>
 
-    <bean id="simpleParser" class="com.vg.lp.persers.text.SimpleParser" />
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <constructor-arg ref = "dataSource"/>
+    </bean>
+
+    <!--инициализация парсеров: sellParser, sentParser, simpleParserSps, simpleParserWord-->
+    <bean id="sellParser" class="com.vg.lp.persers.text.SellParser" />
+    <bean id="sentParser" class="com.vg.lp.persers.text.SentencesParser" />
+
     <bean id="simpleParserSps" class="com.vg.lp.persers.specifications.SimpleParserSps"/>
+
+    <bean id="simpleParserWord" class="com.vg.lp.persers.world.SimpleParserWord">
+        <constructor-arg ref = "serviceWord"/>
+    </bean>
+
+    <!--инициализация менаджеров: rm, qm-->
+    <bean id="rm" class="com.vg.lp.utilities.requestmanagers.RequestManager"/>
+    <bean id="qm" class="com.vg.lp.utilities.requestmanagers.QuestionManager"/>
+
+    <!--инициализация dao: sqliteEndingDAO, sqliteBasicsDAO, sqliteMorphologicalDAO, sqliteInformationDAO-->
+    <bean id="sqliteEndingDAO" class="com.vg.lp.datalayer.sqlite.SQLiteEndingDAO">
+        <constructor-arg ref = "jdbcTemplate"/>
+        <constructor-arg ref = "rm"/>
+    </bean>
+
+    <bean id="sqliteBasicsDAO" class="com.vg.lp.datalayer.sqlite.SQLiteBasicsDAO">
+        <constructor-arg ref = "jdbcTemplate"/>
+        <constructor-arg ref = "rm"/>
+    </bean>
+
+    <bean id="sqliteMorphologicalDAO" class="com.vg.lp.datalayer.sqlite.SQLiteMorphologicalDAO">
+        <constructor-arg ref = "jdbcTemplate"/>
+        <constructor-arg ref = "rm"/>
+    </bean>
+
+    <bean id="sqliteInformationDAO" class="com.vg.lp.datalayer.sqlite.SQLiteInformationDAO">
+        <constructor-arg ref = "jdbcTemplate"/>
+        <constructor-arg ref = "rm"/>
+    </bean>
+
+    <!--инициализация сервисов: serviceWord-->
+    <bean id="serviceWord" class="com.vg.lp.services.ServiceWord" autowire="byName">
+        <constructor-arg ref = "sqliteEndingDAO"/>
+        <constructor-arg ref = "sqliteBasicsDAO"/>
+        <constructor-arg ref = "sqliteMorphologicalDAO"/>
+        <constructor-arg ref = "sqliteInformationDAO"/>
+
+        <constructor-arg ref = "sellParser"/>
+        <constructor-arg ref = "simpleParserSps"/>
+    </bean>
 
 </beans>

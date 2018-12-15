@@ -49,4 +49,9 @@ INSERT INTO Endings (endings) VALUES ('ий');
 INSERT INTO Endings (endings) VALUES ('ья');
 INSERT INTO Endings (endings) VALUES ('ьи');
 
+--какой
+INSERT INTO Endings (endings) VALUES ('ие');
+
+
+
 

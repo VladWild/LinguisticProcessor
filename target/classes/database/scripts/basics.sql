@@ -1,72 +1,92 @@
 ﻿DELETE FROM Basics WHERE 1=1;
 
 --Команды
-INSERT INTO Basics (basics) VALUES ('Австрали');
-INSERT INTO Basics (basics) VALUES ('Англи');
-INSERT INTO Basics (basics) VALUES ('Аргентин');
-INSERT INTO Basics (basics) VALUES ('Бельги');
-INSERT INTO Basics (basics) VALUES ('Бразили');
-INSERT INTO Basics (basics) VALUES ('Германи');
-INSERT INTO Basics (basics) VALUES ('Дани');
-INSERT INTO Basics (basics) VALUES ('Египет,Египт');
-INSERT INTO Basics (basics) VALUES ('Иран');
-INSERT INTO Basics (basics) VALUES ('Исланди');
-INSERT INTO Basics (basics) VALUES ('Испани');
-INSERT INTO Basics (basics) VALUES ('Колумби');
-INSERT INTO Basics (basics) VALUES ('Коста-Рик');
-INSERT INTO Basics (basics) VALUES ('Марокко');
-INSERT INTO Basics (basics) VALUES ('Мексик');
-INSERT INTO Basics (basics) VALUES ('Нигери');
-INSERT INTO Basics (basics) VALUES ('Панам');
-INSERT INTO Basics (basics) VALUES ('Перу');
-INSERT INTO Basics (basics) VALUES ('Польш');
-INSERT INTO Basics (basics) VALUES ('Португали');
-INSERT INTO Basics (basics) VALUES ('Коре');
-INSERT INTO Basics (basics) VALUES ('Росси');
-INSERT INTO Basics (basics) VALUES ('Арави');
-INSERT INTO Basics (basics) VALUES ('Сенегал');
-INSERT INTO Basics (basics) VALUES ('Серби');
-INSERT INTO Basics (basics) VALUES ('Тунис');
-INSERT INTO Basics (basics) VALUES ('Уругва');
-INSERT INTO Basics (basics) VALUES ('Франци');
-INSERT INTO Basics (basics) VALUES ('Хорвати');
-INSERT INTO Basics (basics) VALUES ('Швейцари');
-INSERT INTO Basics (basics) VALUES ('Швеци');
-INSERT INTO Basics (basics) VALUES ('Япони');
+INSERT INTO Basics (basics, metka) VALUES ('Австрали', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Англи', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Аргентин', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Бельги', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Бразили', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Германи', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Дани', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Египет', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Иран', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Исланди', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Испани', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Колумби', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Коста-Рик', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Марокко', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Мексик', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Нигери', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Панам', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Перу', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Польш', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Португали', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Коре', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Росси', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Арави', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Сенегал', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Серби', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Тунис', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Уругва', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Франци', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Хорвати', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Швейцари', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Швеци', 'K');
+INSERT INTO Basics (basics, metka) VALUES ('Япони', 'K');
 
 --Cуществительные
-INSERT INTO Basics (basics) VALUES ('побед');
-INSERT INTO Basics (basics) VALUES ('чертветьфинал');
-INSERT INTO Basics (basics) VALUES ('полуфинал');
-INSERT INTO Basics (basics) VALUES ('финал');
-INSERT INTO Basics (basics) VALUES ('матч');
-INSERT INTO Basics (basics) VALUES ('мест');
-INSERT INTO Basics (basics) VALUES ('команд');
-INSERT INTO Basics (basics) VALUES ('турнир');
-INSERT INTO Basics (basics) VALUES ('соревновани');
-INSERT INTO Basics (basics) VALUES ('стади');
-INSERT INTO Basics (basics) VALUES ('плей-офф');
+INSERT INTO Basics (basics, metka) VALUES ('побед', 'П');
+INSERT INTO Basics (basics, metka) VALUES ('чертветьфинал', 'C');
+INSERT INTO Basics (basics, metka) VALUES ('полуфинал', 'C');
+INSERT INTO Basics (basics, metka) VALUES ('финал', 'C');
+INSERT INTO Basics (basics, metka) VALUES ('матч', 'М');
+INSERT INTO Basics (basics, metka) VALUES ('мест', 'МЕСТ');
+INSERT INTO Basics (basics, metka) VALUES ('команд', 'KOM');
+INSERT INTO Basics (basics, metka) VALUES ('турнир', 'C');
+INSERT INTO Basics (basics, metka) VALUES ('соревновани', 'C');
+INSERT INTO Basics (basics, metka) VALUES ('стади', 'СТАД');
+INSERT INTO Basics (basics, metka) VALUES ('плей-офф', 'C');
 
 --Глаголы
-INSERT INTO Basics (basics) VALUES ('сыграл');
-INSERT INTO Basics (basics) VALUES ('играл');
-INSERT INTO Basics (basics) VALUES ('выиграл');
-INSERT INTO Basics (basics) VALUES ('одержал');
-INSERT INTO Basics (basics) VALUES ('проиграл');
-INSERT INTO Basics (basics) VALUES ('победил');
-INSERT INTO Basics (basics) VALUES ('участвовал');
-INSERT INTO Basics (basics) VALUES ('дошл');
+INSERT INTO Basics (basics, metka) VALUES ('сыграл', 'P');
+INSERT INTO Basics (basics, metka) VALUES ('играл', 'УЧ');
+INSERT INTO Basics (basics, metka) VALUES ('выиграл', 'P+');
+INSERT INTO Basics (basics, metka) VALUES ('одержал', 'P+');
+INSERT INTO Basics (basics, metka) VALUES ('проиграл', 'P-');
+INSERT INTO Basics (basics, metka) VALUES ('победил', 'P+');
+INSERT INTO Basics (basics, metka) VALUES ('участвовал', 'УЧ');
+INSERT INTO Basics (basics, metka) VALUES ('занял', 'Р');
+INSERT INTO Basics (basics, metka) VALUES ('дошл', 'Р');
 
 --Числительные
-INSERT INTO Basics (basics) VALUES ('перв');
-INSERT INTO Basics (basics) VALUES ('втор');
-INSERT INTO Basics (basics) VALUES ('трет');
-INSERT INTO Basics (basics) VALUES ('четверт');
-INSERT INTO Basics (basics) VALUES ('восьм');
+INSERT INTO Basics (basics, metka) VALUES ('перв', 'C');
+INSERT INTO Basics (basics, metka) VALUES ('втор', 'C');
+INSERT INTO Basics (basics, metka) VALUES ('трет', 'C');
+INSERT INTO Basics (basics, metka) VALUES ('четверт', 'C');
+INSERT INTO Basics (basics, metka) VALUES ('восьм', 'C');
 
 --Наречия
-INSERT INTO Basics (basics) VALUES ('сколько');
-INSERT INTO Basics (basics) VALUES ('далеко');
+INSERT INTO Basics (basics, metka) VALUES ('сколько', 'КОЛ');
+INSERT INTO Basics (basics, metka) VALUES ('далеко', 'СТАД');
+
+--Прилагательные
+INSERT INTO Basics (basics, metka) VALUES ('как', 'УТ');
+
+--Местоимения
+INSERT INTO Basics (basics, metka) VALUES ('одна', 'МС');
+INSERT INTO Basics (basics, metka) VALUES ('собой', 'СОБ');
+INSERT INTO Basics (basics, metka) VALUES ('кто', 'УТ');
+
+--Предлоги
+INSERT INTO Basics (basics, metka) VALUES ('между', 'П');
+INSERT INTO Basics (basics, metka) VALUES ('в', 'П');
+INSERT INTO Basics (basics, metka) VALUES ('за', 'П');
+INSERT INTO Basics (basics, metka) VALUES ('на', 'П');
+INSERT INTO Basics (basics, metka) VALUES ('до', 'П');
+
+--Союзы
+INSERT INTO Basics (basics, metka) VALUES ('и', 'КСЗ');
+INSERT INTO Basics (basics, metka) VALUES ('Как', 'РМ');
 
 
 

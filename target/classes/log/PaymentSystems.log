@@ -1,8 +1,0 @@
-2018-12-09 18:22:21,213 INFO  com.vg.lp.services.ServiceWord                     - Список всех возможных окончаний для слова "сколько":  о 
-2018-12-09 18:22:21,217 INFO  com.vg.lp.services.ServiceWord                     - Основа слова "сколько": сколько
-2018-12-09 18:22:21,218 INFO  com.vg.lp.services.ServiceWord                     - Окончание слова "сколько": null
-2018-12-09 18:22:21,236 INFO  com.vg.lp.services.ServiceWord                     - Номер флективного класса - основы слова "сколько": 57 - сколько
-2018-12-09 18:22:21,238 INFO  com.vg.lp.services.ServiceWord                     - Номер окончания слова "сколько": 10 - null
-2018-12-09 18:22:21,249 INFO  com.vg.lp.services.ServiceWord                     - Номера морфологических признаков: 41, 
-2018-12-09 18:22:21,258 INFO  com.vg.lp.services.ServiceWord                     - Часть речи слова "сколько": нар
-2018-12-09 18:22:21,259 INFO  com.vg.lp.services.ServiceWord                     - Характеристики слова "сколько": [{вид=вопр}]

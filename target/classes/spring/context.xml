@@ -56,6 +56,11 @@
         <constructor-arg ref = "rm"/>
     </bean>
 
+    <bean id="sqliteDataDAO" class="com.vg.lp.datalayer.sqlite.SQLiteDataDAO">
+        <constructor-arg ref = "jdbcTemplate"/>
+        <constructor-arg ref = "rm"/>
+    </bean>
+
     <!--инициализация сервисов: serviceWord-->
     <bean id="serviceWord" class="com.vg.lp.services.ServiceWord">
         <constructor-arg ref = "sqliteEndingDAO"/>
@@ -69,6 +74,12 @@
 
     <bean id="serviceSentence" class="com.vg.lp.services.ServiceSentence">
         <constructor-arg ref = "groups"/>
+    </bean>
+
+    <bean id="stq" class="com.vg.lp.services.ServiceTypeQuestion"/>
+
+    <bean id="sgq" class="com.vg.lp.services.ServiceGetQuestion">
+        <constructor-arg ref="sqliteDataDAO"/>
     </bean>
 
     <!--инициализация утилит: groups-->

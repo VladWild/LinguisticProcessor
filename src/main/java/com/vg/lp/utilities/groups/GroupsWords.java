@@ -1,6 +1,8 @@
 package com.vg.lp.utilities.groups;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class GroupsWords {
     public List<List<List<String>>> keys = new ArrayList<>();
@@ -54,7 +56,7 @@ public class GroupsWords {
 
         //8. Результат турнира
         keys.add(Arrays.asList(
-                Arrays.asList("Р", "C"),
+                Arrays.asList("Р", "С"),
                 Arrays.asList("Р", "С", "МЕСТ")
         ));
 

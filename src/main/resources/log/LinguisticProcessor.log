@@ -1,21 +1,4 @@
-2018-12-15 21:55:42,909 INFO  com.vg.lp.services.ServiceWord                     - Номера морфологических признаков: 1, 
-2018-12-15 21:55:42,909 INFO  com.vg.lp.services.ServiceWord                     - Часть речи слова "Россия": сущ
-2018-12-15 21:55:42,909 INFO  com.vg.lp.services.ServiceWord                     - Характеристики слова "Россия": [{число=ед, од/неод=неод, род=жен, падеж=им}]
-2018-12-15 21:55:42,909 INFO  com.vg.lp.services.ServiceWord                     - Список всех возможных окончаний для слова "и":  и 
-2018-12-15 21:55:42,909 INFO  com.vg.lp.services.ServiceWord                     - Основа слова "и": и
-2018-12-15 21:55:42,909 INFO  com.vg.lp.services.ServiceWord                     - Окончание слова "и": null
-2018-12-15 21:55:42,909 INFO  com.vg.lp.services.ServiceWord                     - Номер флективного класса - основы слова "и": 69 - и
-2018-12-15 21:55:42,924 INFO  com.vg.lp.services.ServiceWord                     - Семантическая метка слова "и": КСЗ
-2018-12-15 21:55:42,924 INFO  com.vg.lp.services.ServiceWord                     - Номер окончания слова "и": 10 - null
-2018-12-15 21:55:42,924 INFO  com.vg.lp.services.ServiceWord                     - Номера морфологических признаков: 48, 
-2018-12-15 21:55:42,924 INFO  com.vg.lp.services.ServiceWord                     - Часть речи слова "и": союз
-2018-12-15 21:55:42,924 INFO  com.vg.lp.services.ServiceWord                     - Характеристики слова "и": [{}]
-2018-12-15 21:55:42,924 INFO  com.vg.lp.services.ServiceWord                     - Список всех возможных окончаний для слова "Испания":  я 
-2018-12-15 21:55:42,924 INFO  com.vg.lp.services.ServiceWord                     - Основа слова "Испания": Испани
-2018-12-15 21:55:42,924 INFO  com.vg.lp.services.ServiceWord                     - Окончание слова "Испания": я
-2018-12-15 21:55:42,924 INFO  com.vg.lp.services.ServiceWord                     - Номер флективного класса - основы слова "Испания": 11 - Испани
-2018-12-15 21:55:42,924 INFO  com.vg.lp.services.ServiceWord                     - Семантическая метка слова "Испания": К
-2018-12-15 21:55:42,940 INFO  com.vg.lp.services.ServiceWord                     - Номер окончания слова "Испания": 1 - я
-2018-12-15 21:55:42,940 INFO  com.vg.lp.services.ServiceWord                     - Номера морфологических признаков: 1, 
-2018-12-15 21:55:42,971 INFO  com.vg.lp.services.ServiceWord                     - Часть речи слова "Испания": сущ
-2018-12-15 21:55:42,971 INFO  com.vg.lp.services.ServiceWord                     - Характеристики слова "Испания": [{число=ед, од/неод=неод, род=жен, падеж=им}]
+2018-12-16 12:56:07,387 INFO  com.vg.lp.services.ServiceWord                     - Номер окончания слова "место": 16 - о
+2018-12-16 12:56:07,391 INFO  com.vg.lp.services.ServiceWord                     - Номера морфологических признаков: 13, 16, 
+2018-12-16 12:56:07,398 INFO  com.vg.lp.services.ServiceWord                     - Часть речи слова "место": сущ
+2018-12-16 12:56:07,398 INFO  com.vg.lp.services.ServiceWord                     - Характеристики слова "место": [{число=ед, од/неод=неод, род=cp, падеж=им}, {число=ед, од/неод=неод, род=cp, падеж=вп}]

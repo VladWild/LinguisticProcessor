@@ -1,4 +1,39 @@
-2018-12-16 12:56:07,387 INFO  com.vg.lp.services.ServiceWord                     - Номер окончания слова "место": 16 - о
-2018-12-16 12:56:07,391 INFO  com.vg.lp.services.ServiceWord                     - Номера морфологических признаков: 13, 16, 
-2018-12-16 12:56:07,398 INFO  com.vg.lp.services.ServiceWord                     - Часть речи слова "место": сущ
-2018-12-16 12:56:07,398 INFO  com.vg.lp.services.ServiceWord                     - Характеристики слова "место": [{число=ед, од/неод=неод, род=cp, падеж=им}, {число=ед, од/неод=неод, род=cp, падеж=вп}]
+2018-12-22 22:12:01,324 INFO  com.vg.lp.services.ServiceWord                     - Список всех возможных окончаний для слова "сколько":  о 
+2018-12-22 22:12:01,340 INFO  com.vg.lp.services.ServiceWord                     - Основа слова "сколько": сколько
+2018-12-22 22:12:01,340 INFO  com.vg.lp.services.ServiceWord                     - Окончание слова "сколько": null
+2018-12-22 22:12:01,356 INFO  com.vg.lp.services.ServiceWord                     - Номер флективного класса - основы слова "сколько": 58 - сколько
+2018-12-22 22:12:01,356 INFO  com.vg.lp.services.ServiceWord                     - Семантическая метка слова "сколько": КОЛ
+2018-12-22 22:12:01,356 INFO  com.vg.lp.services.ServiceWord                     - Номер окончания слова "сколько": 10 - null
+2018-12-22 22:12:01,371 INFO  com.vg.lp.services.ServiceWord                     - Номера морфологических признаков: 41, 
+2018-12-22 22:12:01,371 INFO  com.vg.lp.services.ServiceWord                     - Часть речи слова "сколько": нар
+2018-12-22 22:12:01,371 INFO  com.vg.lp.services.ServiceWord                     - Характеристики слова "сколько": [{вид=вопр}]
+2018-12-22 22:12:01,371 INFO  com.vg.lp.services.ServiceWord                     - Список всех возможных окончаний для слова "матчей":  ей й 
+2018-12-22 22:12:01,371 INFO  com.vg.lp.services.ServiceWord                     - Основа слова "матчей": матч
+2018-12-22 22:12:01,371 INFO  com.vg.lp.services.ServiceWord                     - Окончание слова "матчей": ей
+2018-12-22 22:12:01,387 INFO  com.vg.lp.services.ServiceWord                     - Номер флективного класса - основы слова "матчей": 37 - матч
+2018-12-22 22:12:01,387 INFO  com.vg.lp.services.ServiceWord                     - Семантическая метка слова "матчей": М
+2018-12-22 22:12:01,387 INFO  com.vg.lp.services.ServiceWord                     - Номер окончания слова "матчей": 4 - ей
+2018-12-22 22:12:01,387 INFO  com.vg.lp.services.ServiceWord                     - Номера морфологических признаков: 20, 
+2018-12-22 22:12:01,402 INFO  com.vg.lp.services.ServiceWord                     - Часть речи слова "матчей": сущ
+2018-12-22 22:12:01,402 INFO  com.vg.lp.services.ServiceWord                     - Характеристики слова "матчей": [{число=мн, од/неод=неод, род=муж, падеж=рп}]
+2018-12-22 22:12:01,402 INFO  com.vg.lp.services.ServiceWord                     - Список всех возможных окончаний для слова "сыграла":  а 
+2018-12-22 22:12:01,402 INFO  com.vg.lp.services.ServiceWord                     - Основа слова "сыграла": сыграл
+2018-12-22 22:12:01,402 INFO  com.vg.lp.services.ServiceWord                     - Окончание слова "сыграла": а
+2018-12-22 22:12:01,402 INFO  com.vg.lp.services.ServiceWord                     - Номер флективного класса - основы слова "сыграла": 44 - сыграл
+2018-12-22 22:12:01,402 INFO  com.vg.lp.services.ServiceWord                     - Семантическая метка слова "сыграла": Р
+2018-12-22 22:12:01,402 INFO  com.vg.lp.services.ServiceWord                     - Номер окончания слова "сыграла": 5 - а
+2018-12-22 22:12:01,418 INFO  com.vg.lp.services.ServiceWord                     - Номера морфологических признаков: 32, 
+2018-12-22 22:12:01,418 INFO  com.vg.lp.services.ServiceWord                     - Часть речи слова "сыграла": гл
+2018-12-22 22:12:01,418 INFO  com.vg.lp.services.ServiceWord                     - Характеристики слова "сыграла": [{форма=неинф, число=ед, род=жен, время=прош, вид=сов}]
+2018-12-22 22:12:01,418 INFO  com.vg.lp.services.ServiceWord                     - Список всех возможных окончаний для слова "Португалия":  я 
+2018-12-22 22:12:01,418 INFO  com.vg.lp.services.ServiceWord                     - Основа слова "Португалия": Португали
+2018-12-22 22:12:01,418 INFO  com.vg.lp.services.ServiceWord                     - Окончание слова "Португалия": я
+2018-12-22 22:12:01,418 INFO  com.vg.lp.services.ServiceWord                     - Номер флективного класса - основы слова "Португалия": 20 - Португали
+2018-12-22 22:12:01,418 INFO  com.vg.lp.services.ServiceWord                     - Семантическая метка слова "Португалия": К
+2018-12-22 22:12:01,434 INFO  com.vg.lp.services.ServiceWord                     - Номер окончания слова "Португалия": 1 - я
+2018-12-22 22:12:01,434 INFO  com.vg.lp.services.ServiceWord                     - Номера морфологических признаков: 1, 
+2018-12-22 22:12:01,434 INFO  com.vg.lp.services.ServiceWord                     - Часть речи слова "Португалия": сущ
+2018-12-22 22:12:01,434 INFO  com.vg.lp.services.ServiceWord                     - Характеристики слова "Португалия": [{число=ед, од/неод=неод, род=жен, падеж=им}]
+2018-12-22 22:12:01,434 INFO  com.vg.lp.services.ServiceSentence                 - Номера групп, которые присутствуют в вопросе: 
+2018-12-22 22:12:01,434 INFO  com.vg.lp.services.ServiceSentence                 - группа  - 9;
+2018-12-22 22:12:01,434 INFO  com.vg.lp.services.ServiceSentence                 - группа  - 10;

@@ -2,12 +2,14 @@ package com.vg.lp.services;
 
 import com.vg.lp.datalayer.data.word.Word;
 import com.vg.lp.utilities.groups.GroupsWords;
+import lombok.extern.log4j.Log4j;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+@Log4j
 public class ServiceSentence {
     private List<List<List<String>>> keys;
 
@@ -37,11 +39,16 @@ public class ServiceSentence {
             }
         }
 
-        System.out.println(map);
-
         StringBuilder str = new StringBuilder();
         for(int i = 0; i < map.size(); i++){
             str.append(map.get(i));
+        }
+
+        log.info("Номера групп, которые присутствуют в вопросе: ");
+        for(int i = 0; i < map.size(); i++){
+            if (map.get(i) == 1){
+                log.info("группа  - " + (i + 1) + ";");
+            }
         }
 
         return str.toString();

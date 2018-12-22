@@ -4,6 +4,8 @@ import com.vg.lp.datalayer.DataDAO;
 import com.vg.lp.datalayer.data.getting.ResultMatch;
 import com.vg.lp.datalayer.data.getting.Teams;
 import com.vg.lp.datalayer.data.word.Word;
+import com.vg.lp.services.other.Service2Question;
+import com.vg.lp.services.other.Service6Question;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -31,12 +33,8 @@ public class ServiceGetQuestion {
                 List<String> defeat = words.stream()
                         .filter(word -> word.getMetka().equals("P-"))
                         .map(Word::getBasic).collect(Collectors.toList());
-                if (!win.isEmpty()){
-                    System.out.println("Победа");
-                }
-                if (!defeat.isEmpty()){
-                    System.out.println("Поражение");
-                }
+                Service2Question service2Question = new Service2Question();
+                service2Question.result(words, win, defeat);
                 break;
             case 3:
                 String st = "";
@@ -93,6 +91,9 @@ public class ServiceGetQuestion {
                 int countMatches = dataDAO.getCountMatches(team.get(0));
                 System.out.println("Команда " + teamName.get(0) + " сыграла " + countMatches + " матчей");
                 break;
+            case 6:
+                Service6Question service6Question = new Service6Question();
+                service6Question.resultStage(words);
             case 0:
                 System.out.println("Система не поняла ваш вопрос. Пожалуйста повторите его.");
                 break;

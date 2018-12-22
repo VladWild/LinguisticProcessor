@@ -19,13 +19,14 @@ public class TestServiceSentence {
         Parser ps = (Parser) context.getBean("sentParser");
         ParserWord pw = (ParserWord) context.getBean("simpleParserWord");
 
-        List<Word> words = pw.getList(ps.getList("какая команда заняла первое место?"));
+        List<Word> words = pw.getList(ps.getList("сколько матчей сыграла Португалия?"));
 
         ServiceSentence ss = (ServiceSentence) context.getBean("serviceSentence");
         String number = ss.getListGroups(words);
 
         ServiceTypeQuestion stq = (ServiceTypeQuestion) context.getBean("stq");
         int type = stq.getTypeQuestion(number);
+        System.out.println();
 
         ServiceGetQuestion sgq = (ServiceGetQuestion) context.getBean("sgq");
         sgq.getQuestion(words, type);
@@ -37,3 +38,5 @@ public class TestServiceSentence {
         tss.testSimpleParserWorld();
     }
 }
+
+

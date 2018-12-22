@@ -22,6 +22,10 @@ public class ServiceTypeQuestion {
         if (number.equals("00000000110")){
             return 5;
         }
+        if (number.equals("00000000011") ||
+                number.equals("00000000001")){
+            return 6;
+        }
         return 0;
     }
 }
